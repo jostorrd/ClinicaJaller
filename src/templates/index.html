@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica Jaller</title>
+    <!--Importación Talwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    {%block customCSS%}
+    {% endblock %}  
+
 </head>
 <body>
-  
-
-     {% block body %}
-     <h1>Bienvenidos a Clínica Jaller</h1>
-
-     <form >
-        <input type="text" name = "nombre" placeholder="Ingresa un nombre">
-        <button>Enviar</button>
-     </form>
-
+   {% block body %}
+     <h1>Bienvenidos a Clínica Jaller</h1> 
+       
      {% endblock %}
     
-</body>l
+</body>
 </html>

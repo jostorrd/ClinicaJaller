@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(92, 132, 240);
+    font-size: 20px;
+    margin-top: 0px;
+    color:rgb(224, 224, 224)
+}
+.menu-horizontal{
+list-style: none;
+display: flex ;
+justify-content: space-around;
+}
+
+.menu-vertical{
+    display: block;
+    padding: 15px 20px;
+    color:  white;
+    text-decoration: none;
+}
+/* color cuando me posiciono en un opción*/ 
+.menu-horizontal > li:hover{
+    background-color:rgb(40, 99, 226);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color:rgb(224, 224, 224);
+    font-size: 14px;
+    color:rgb(92, 132, 240);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: rgb(92, 132, 240);
+}
+
+.menu-vertical li a{
+    display: block;
+    color: rgb(42, 52, 62 );
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+#profesional {
+   display:flexbox;
+   margin-top: 25px;
+   border-radius: 20px;
+   
+}
+
+.Encabezado{
+    margin-top: 100px;  
+    left: 50px;
+    background-color: rgb(92, 132, 240);
+    border-radius: 5px;
+}
+.contenedor{
+    margin-top: 0px;  
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    height: auto;;
+   
+}
+.selprof{
+    margin-top: 20px;
+    left: 500px;
+    width: 300px;
+    float: left;
+}
+.selfecha{
+    margin-top: 20px;
+    left: 500px;
+    width: 300px;
+    float: left;
+}
+
+.selhorario{
+    margin-top: 20px;
+    left: 500px;
+    width: 300px;
+    float: left;
+}
+
+#btn-asignar{
+ float: right;
+ background-color: rgb(92, 132, 240 );
+ border-radius: 17px;
+ color: rgb(255, 255, 255);
+ font-size: 14px;
+ padding: 10px;
+ 
+}
+
+h4{
+    font-size: 20px;
+    color: rgb(92, 132, 240);
+}
+
+#titulo2{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    color: rgb(92, 132, 240);
+    font-weight: bold;
+    
+  }

@@ -1,0 +1,61 @@
+{% extends "index.html" %}
+
+{% block body %}
+<link rel="stylesheet" href="{{ url_for("static",filename="css/programarCita.css")}}">
+<!--Barra de opciones-->
+<h1 id="titulo">Clínica Jaller</h1>
+
+<nav>
+      <ul class="menu-horizontal">
+     <li><a href="#">Afiliados</a>
+      <ul class="menu-vertical">
+        <li><a href="">Cita médica</a></li>
+        <li><a href="">Historias Clínicas</a></li>
+      </ul>
+     </li>
+
+     <li><a href="#">Empleados</a>
+      <ul class="menu-vertical">
+        <li><a href="">Cita médica</a></li>
+        <li><a href="">Historias Clínicas</a></li>
+      </ul>
+     </li>
+     <li><a href="#">Administrador</a>
+      <ul class="menu-vertical">
+        <li><a href="">Cita médica</a></li>
+        <li><a href="">Historias Clínicas</a></li>
+      </ul>
+     </li>
+    </ul>
+</nav>
+<!--Barra de opciones-->
+<h1 id="titulo2">Programar para citas médicas</h1>
+<div class="contenedor">
+
+  <div class="selprof">
+    
+   <h4>Selecionar un profesional</h4>
+   <h5>Profesional</h5>
+    <form id="profesional"></form>
+    <select>
+      <option disabled selected="">Selecione un médico</option>
+      <option>Fernando Suarez (Médico general)</option>
+      <option>Zulema Tangarife(Médico general)</option>
+    </select>
+  </div>
+
+  <div class="selfecha">
+    <h4>Selecionar la fecha</h4>
+      <input type="date" value="2022-09-30">
+  </div>
+
+  <div class="selhorario">
+    <h4>Selecionar un horario</h4>
+   
+      <input type="time" value="2022-09-30">
+      <button id="btn-asignar">Asignar</button>
+  </div>
+
+</div
+
+{% endblock %}
