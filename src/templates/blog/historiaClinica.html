@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/historiaClinica.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Historia Clinica</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu-horizontal">
+       <li><a href="#">Afiliados</a>
+        <ul class="menu-vertical">
+          <li><a href="">Cita médica</a></li>
+          <li><a href="">Historias Clínicas</a></li>
+        </ul>
+       </li>
+  
+       <li><a href="#">Empleados</a>
+        <ul class="menu-vertical">
+          <li><a href="">Cita médica</a></li>
+          <li><a href="">Historias Clínicas</a></li>
+        </ul>
+       </li>
+       <li><a href="#">Administrador</a>
+        <ul class="menu-vertical">
+          <li><a href="">Cita médica</a></li>
+          <li><a href="">Historias Clínicas</a></li>
+        </ul>
+       </li>
+      </ul>
+  </nav>
+    <h1 class="text-3xl font-bold underline" >Historia Clinica</h1>
+    <div id ="general" >
+        <div id="panelHistoria">
+    
+        <div><label>Fecha de atención</label>
+            <input class="historiaClinicatxt" type="text" readonly = "readonly" id = "FechaAtenciontxt" name = "FechaAtencion">
+        </div>
+            <br>
+        <div><label>Profesional</label>
+            <input class="historiaClinicatxt" type="text" readonly = "readonly" id = "Profesionaltxt" name = "Profesional">
+        </div>
+            <br>
+        <div>
+            <label>Observaciones médicas</lab>
+                <br>
+            <textarea class="historiaClinicatxt" readonly = "readonly" id = "ObservacionesMedicastxt" name = "ObservacionesMedicas"></textarea> 
+        </div>
+            <br>
+        <div>
+            <h4>Encuesta de servicio</h4>
+            <br>
+                <label>1</label>
+                <input class="historiaClinicatxt" type="radio" id = "ObservacionesMedicas1" name = "ObservacionesMedicas" value = "1">
+                <label>2</label>
+                <input class="historiaClinicatxt" type="radio" id = "ObservacionesMedicas2" name = "ObservacionesMedicas" value = "2">
+                <label>3</label>
+                <input class="historiaClinicatxt" type="radio" id = "ObservacionesMedicas3" name = "ObservacionesMedicas" value = "3">
+                <label>4</label>
+                <input class="historiaClinicatxt" type="radio" id = "ObservacionesMedicas4" name = "ObservacionesMedicas" value = "4">
+                <label>5</label>
+                <input class="historiaClinicatxt" type="radio" id = "ObservacionesMedicas5" name = "ObservacionesMedicas" value = "5">
+            <br>
+            <p id="p1">Evalue de 1 a 5 su confirmidad con la atención prestada</p>
+        </div>
+             
+         </div>
+
+    </div>
+</body>
+</html>
