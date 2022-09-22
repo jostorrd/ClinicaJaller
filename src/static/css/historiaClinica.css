@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex ;
+    justify-content: space-around;
+    }
+    
+    .menu-vertical{
+        display: block;
+        padding: 15px 20px;
+        color:  white;
+        text-decoration: none;
+    }
+    /* color cuando me posiciono en un opción*/ 
+    .menu-horizontal > li:hover{
+        background-color:rgb(40, 99, 226);
+    }
+    .menu-vertical{
+        position: absolute;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color:rgb(224, 224, 224);
+        font-size: 14px;
+        color:rgb(92, 132, 240);
+    }
+    .menu-horizontal li:hover .menu-vertical{
+        display: block;
+    }
+    .menu-vertical li:hover{
+        background-color: rgb(92, 132, 240);
+    }
+    
+    .menu-vertical li a{
+        display: block;
+        color: rgb(42, 52, 62 );
+        padding: 15px 15px 15px 20px;
+        text-decoration: none;
+    }
+
+
+
+h1{
+    font-size: 36px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(92, 132, 240);
+    margin-top:auto;
+}
+
+panelHistoria{
+    display: flex;
+
+    
+}
+
+
+#general{
+    width: 500px;
+    background-color: gainsboro;
+    height: 210px;
+    font-family: arial;
+    font-size: 14px;
+    justify-content: center;
+    margin: 0.5em auto;
+    border-radius: 10px;
+    border-width: 150px;
+    padding: 30px;
+    
+}
+
+p1{
+    font-size: 4px ;
+}
+
+FechaAtenciontxt{
+    background-color: gainsboro;
+    justify-content: left;
+}
+
+ObservacionesMedicastxt{
+    width: 489px;
+    height: 28px;
+}
